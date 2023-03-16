@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Be Vietnam Pro', sans-serif;
-    src: url(..fonts/vietnam-pro), format('opentype');
+    src: url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap'), format('opentype');
     font-weight: 400;
     font-style: normal;
 
@@ -14,7 +14,14 @@
 }
 
 :root {
+    --section-text-color: #374754; 
+    --section-title-color: #252B42;
+    --title-font-size: 3rem;
+    --subtitle-font-size: 1.5rem;
     font-family: "Be Vietnam Pro", sans-serif;
+    text-align: center;
+    color:var(--section-text-color);
+    min-width: 320px;
 }
 
 img {
