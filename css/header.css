@@ -1,0 +1,13 @@
+.header {
+  background-image: url(..img/background/header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 1024px;
+  min-width: 320px;
+}
+@media (min-width: 500px) {
+  .header {
+    background-image: url(..img/background/header.svg)
+  }
+}
