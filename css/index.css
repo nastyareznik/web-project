@@ -1,4 +1,10 @@
-@import "global.css";
-@import "header.css";
-@import "main.css";
-@import "footer.css"
+@import url(common.css);
+@import url(header.css);
+@import url(features.css);
+@import url(organize-block.css);
+@import url(newsletter.css);
+@import url(partners.css);
+@import url(testimonials.css);
+@import url(pricing.css);
+@import url(contact-us.css);
+@import url(footer.css);
