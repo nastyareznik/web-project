@@ -1,0 +1,93 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--about-us-background-color);
+    background-size: auto;
+    padding-bottom: 75px;
+}
+
+.about-us__text {
+    text-align: center;
+    font-family: Source Sans, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    color: rgb(240, 240, 240);
+    padding-bottom: 23px;
+    line-height: 30px;
+}
+
+.about-us__title {
+    text-align: center;
+    font-family: Leckerli One, cursive;
+    line-height: 14px;
+    color: var(--title-color);
+    padding-top: 23px;
+    padding-bottom: 12px;
+    font-size: 1.06rem;
+    margin-bottom: 20px;
+}
+
+.about-us__subtitle {
+    text-align: center;
+    font-family: Dangrek, cursive;
+    font-size: 2.13rem;
+    line-height: 45.1px;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.about-us__main-text {
+    text-align: center;
+    font-family: Source Sans, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: rgb(224, 221, 221);
+    line-height: 28.8px;
+    display: block;
+}
+
+.about-us__cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: baseline;
+}    
+
+.cards__experience {
+    align-items: center;
+    display: block;
+}
+
+.cards__title {
+    text-align: center;
+    font-size: 2.125rem;
+    margin: 10px 0 10px 0;
+    font-weight: 400;
+    font-family: Dangrek;
+    color: rgb(255, 255, 255);
+}
+
+.cards__text {
+    text-align: center;
+    font-family: Source Sans, sans-serif;
+    letter-spacing: 0.4px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-bottom: 23px;
+    line-height: 30px;
+}
+
+.cards__images {
+    width: 100%;
+    height: auto;
+    max-width: 40px;
+    min-width: 26px;
+    max-height: 40px;
+    min-height: 26px;
+    line-height: 28.8px;
+    vertical-align: baseline;
+}
